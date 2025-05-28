@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 0 ;
 }
 
 
@@ -163,7 +163,7 @@ p::selection {
 }
 
 .flotante {
-    position: fixed;
+    position: fixed !important;
     bottom: 50px;
     right: 20px;
 }
@@ -305,7 +305,20 @@ footer a img {
     width: 100px;
     height: 100px;
 }
+/*----Pagina de Nosotros*/
 
+/*!----IMPORTANTEEEE-- COMENTARIO: Profe, no se como arreglar el espacio blanco entre el header con el h2 "Entrena Mejor". Me tira un tip?*/
+.Entrena {
+    font-weight: 700;
+}
+.Nosotros{
+    font-weight: 700;
+}
+.txt-nosotros{
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0
+}
 /*----Pagina de promociones*/
 .combos .combos-div {
     /*border: 1px solid black;*/
