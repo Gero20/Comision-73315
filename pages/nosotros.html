@@ -12,27 +12,48 @@
 
 <body>
     <header>
-        <h1>New Body</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./compradores.html">Compradores</a></li>
-                <li><a href="./promociones.html">Promociones</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">New Body</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./promociones.html">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./compradores.html">Compradores</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                        <button class="btn" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section class="imagenpri">
-            <h2 class="Entrena">¡Entrena Mejor!</h2>
+            <h1>Nosotros</h1>
         </section>
         <section>
-            <h2 class="Nosotros">Nosotros</h2>
-            <img src="" alt="">
-        </section>
-        <section>
-            <p class="txt-nosotros">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo placeat rerum non veniam illum autem. Ab
+            <p class="txt-nosotros">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo placeat rerum non
+                veniam illum autem. Ab
                 facere molestiae in, officiis velit consequatur fuga, minima eveniet, eaque sapiente cupiditate quos
                 corrupti pariatur. Quod accusantium quo exercitationem, magnam sed est? Eligendi quam facilis quisquam
                 nostrum ea, fugiat architecto adipisci consequatur. Esse, provident.</p>
@@ -72,7 +93,7 @@
                     <input type="text" class="form-control is-invalid" id="validationServer03"
                         aria-describedby="validationServer03Feedback" required>
                     <div id="validationServer03Feedback" class="invalid-feedback">
-                            Por favor, ingrese su ciudad.
+                        Por favor, ingrese su ciudad.
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -83,7 +104,7 @@
                         <option>...</option>
                     </select>
                     <div id="validationServer04Feedback" class="invalid-feedback">
-                            Por favor, ingrese su provincia.
+                        Por favor, ingrese su provincia.
                     </div>
                 </div>
                 <div class="col-12">
@@ -107,11 +128,12 @@
             <a href=""><img src="../img/whatsapp icono.png" alt=""></a>
         </div>
     </main>
+    <footer>
+        <a href="https://www.whatsapp.com/"><img src="../img/whatsapp.png" alt=""></a>
+        <a href="https://www.instagram.com/"><img src="../img/instagram.png" alt=""></a>
+    </footer>
 </body>
-<footer>
-    <a href="https://www.whatsapp.com/"><img src="../img/whatsapp.png" alt=""></a>
-    <a href="https://www.instagram.com/"><img src="../img/instagram.png" alt=""></a>
-</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
