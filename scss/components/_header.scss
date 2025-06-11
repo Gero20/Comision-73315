@@ -1,0 +1,37 @@
+.container-fluid {
+    background-color: $color-principal;
+
+    a {
+        color: white;
+        font-size: 50px;
+        font-weight: 800;
+        font-style: italic;
+        padding: 15px;
+    }
+}
+
+.navbar {
+    padding: 0;
+
+}
+
+.nav-item {
+    a {
+        color: white !important;
+        font-size: 15px;
+        text-decoration: none;
+
+        &:hover {
+            color: black !important;
+        }
+    }
+}
+
+.btn {
+    background-color: white;
+
+    &:hover {
+        background-color: red;
+    }
+}
+

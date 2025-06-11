@@ -70,8 +70,8 @@ h2 {
 }
 
 h2::selection {
-    background-color: crimson;
-    color: white
+    background-color: white;
+    color: black
 }
 
 h3 {
@@ -135,7 +135,7 @@ p::selection {
     align-items: center;
     flex-wrap: wrap;
 
-}
+} 
 
 .productos .contenedores div {
     border: 1px solid rgb(255, 255, 255);

@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.protecreaotros-div div a {
+  background-color: crimson;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+* {
+  margin: 0 !important;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1::selection {
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  color: crimson;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+}
+
+h2::selection {
+  background-color: white;
+  color: black;
+}
+
+h3 {
+  color: darkred;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+h3::selection {
+  background-color: crimson;
+  color: white;
+}
+
+h4::selection {
+  background-color: crimson;
+  color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+p::selection {
+  background-color: crimson;
+  color: white;
+}
+
+.container-fluid {
+  background-color: red;
+}
+.container-fluid a {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  font-style: italic;
+  padding: 15px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-item a {
+  color: white !important;
+  font-size: 15px;
+  text-decoration: none;
+}
+.nav-item a:hover {
+  color: black !important;
+}
+
+.btn {
+  background-color: white;
+}
+.btn:hover {
+  background-color: red;
+}
+
+.imagenpri {
+  background-color: black;
+  color: crimson;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  font-style: italic;
+}
+
+.suplementos div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.suplementos div img {
+  width: 500px;
+  height: 350px;
+  margin: 20px !important;
+}
+.suplementos div p {
+  color: black;
+  font-size: 25px;
+  text-align: left;
+}
+.suplementos div p::first-letter {
+  font-size: 30px;
+  color: crimson;
+  font-weight: 700;
+}
+
+.productos .contenedores {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.productos .contenedores div {
+  border: 1px solid rgb(255, 255, 255);
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  margin: 15px !important;
+}
+.productos .contenedores div h3 {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+}
+.productos .contenedores div a img {
+  width: 100%;
+  height: 250px;
+}
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  gap: 10px;
+  margin-top: 40px !important;
+  margin-bottom: 30px !important;
+}
+.grid-productos .grid-item {
+  position: relative;
+}
+.grid-productos .grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-productos .grid-item h4 {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.541);
+  width: 100%;
+  text-align: center;
+}
+.grid-productos .txt-2 {
+  grid-column: span 2;
+}
+.grid-productos .txt-2 h3 {
+  font-size: 30px;
+  margin-top: 30px !important;
+}
+.grid-productos .txt-2 p {
+  color: black;
+  text-align: center;
+  margin-top: 20px !important;
+  font-size: 18px;
+}
+.grid-productos .txt-2 p::first-letter {
+  font-size: 25px;
+  color: crimson;
+  font-weight: 700;
+}
+.grid-productos .img-3 {
+  grid-row: span 2;
+}
+.grid-productos .img-4 {
+  grid-column: span 2;
+}
+.grid-productos .img-7 {
+  grid-column: span 2;
+}
+
+.flotante {
+  position: fixed !important;
+  bottom: 50px;
+  right: 20px;
+}
+
+footer {
+  background-color: rgb(251, 149, 149);
+}
+
+footer a img {
+  width: 50px;
+  height: 50px;
+}
+
+.protecreaotros-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.protecreaotros-div div {
+  border: 3px double rgb(201, 173, 173);
+  width: 300px;
+  height: 55vh;
+  margin: 10px !important;
+  padding: 15px;
+  text-align: center;
+}
+.protecreaotros-div div img {
+  width: 100%;
+  height: 220px;
+}
+.protecreaotros-div div p {
+  margin: 5px !important;
+  padding: 5px;
+}
+.protecreaotros-div div a {
+  transition: 0.7s;
+}
+.protecreaotros-div div a:hover {
+  background-color: black;
+  color: crimson;
+}
+.protecreaotros-div div h4 {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 850px) {
+  .suplementos div {
+    flex-direction: column;
+  }
+  .suplementos img {
+    display: none;
+  }
+  .suplementos p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 810px) {
+  .grid-productos {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+  }
+  .grid-item {
+    grid-column: span 1;
+  }
+  .txt-2 h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px !important;
+  }
+  .txt-2 p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .grid-productos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+  }
+  .grid-item {
+    grid-row: span 1;
+  }
+  .suplementos p {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 440px) {
+  .grid-productos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .img-1 {
+    display: none;
+  }
+  footer {
+    background-color: rgb(200, 199, 199);
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

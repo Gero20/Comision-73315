@@ -1,0 +1,30 @@
+//*VARIABLES
+$color-principal: red;
+$color-secundario: crimson;
+$color-terciario: black;
+$color-cuartenaria: white;
+
+
+//*LISTAS
+$font-size: 30px,
+    25px,
+    20px,
+    18px,
+    14px;
+
+//*EXTENDS
+
+%boton {
+    background-color: crimson;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+//*MIXIN
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
