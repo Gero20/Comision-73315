@@ -50,6 +50,15 @@
             height: 350px;
             text-align: center;
             margin: 15px !important;
+            transition: 1s;
+
+            &:hover {
+                transform: scale(1.07);
+                box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+
+            }
 
             h3 {
                 color: black;

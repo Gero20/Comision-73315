@@ -26,20 +26,25 @@ body {
     font-style: italic;
     padding: 15px;
 }
+
 .navbar {
     padding: 0;
 }
+
 .nav-item a {
     color: white !important;
     font-size: 15px;
     text-decoration: none;
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     color: black !important;
 }
+
 .btn {
     background-color: white;
 }
+
 .btn:hover {
     background-color: red;
 }
@@ -135,7 +140,7 @@ p::selection {
     align-items: center;
     flex-wrap: wrap;
 
-} 
+}
 
 .productos .contenedores div {
     border: 1px solid rgb(255, 255, 255);
@@ -143,6 +148,15 @@ p::selection {
     height: 350px;
     text-align: center;
     margin: 15px !important;
+    transition: 1s;
+
+}
+
+.productos .contenedores div:hover {
+    transform: scale(1.07);
+    box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
 
 }
 
@@ -257,6 +271,14 @@ footer a img {
     margin: 10px !important;
     padding: 15px;
     text-align: center;
+    transition: 1s;
+}
+
+.protecreaotros .protecreaotros-div div:hover {
+    transform: scale(1.07);
+    box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 3px 18px 0px rgba(0, 0, 0, 0.75);
 }
 
 .protecreaotros div img {
