@@ -40,7 +40,7 @@
             }
             }
         }
-    }
+
     .grid-productos {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 200px;
@@ -55,7 +55,7 @@
             }
         }
         }
-    
+}
 
 
 
@@ -67,7 +67,6 @@
             }
         }
         }
-    }
     .grid-productos {
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: 150px;
@@ -81,16 +80,13 @@
             }
             }
         }
-    
-
     footer {
         background-color: rgb(200, 199, 199)
     }
-
     /*----Pagina de compradores-----*/
-
     .clientes-div{
         div{
             height: 65vh;
         }
     }
+}
